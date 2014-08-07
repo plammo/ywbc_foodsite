@@ -1,0 +1,69 @@
+*{
+
+	box-sizing: border-box;
+}
+
+.container-fluid {
+
+	background-color:black;
+}
+
+
+.row__2 img {
+
+	margin: 0 auto;
+}
+
+.row__1 img {
+
+	margin: 25px auto;
+}
+
+.row__color-1 {
+
+	background-color: #ed145b;
+}
+
+.row__color-2 {
+
+	background-color: #582010;
+}
+
+.row__button {
+
+	height:100px;
+	text-align:center;
+	margin: 20px 0;
+}
+
+.row__button h1 {
+
+	font-family: "Remachine Script";
+	font-size: 2em;
+	color:#00a3d3;
+	//background-color:blue;
+}
+
+.row__button h2 {
+
+	font-family: "ChunkFive";
+}
+
+
+.mpics--right,
+.mpics--left {
+
+	border:solid 1px white;
+
+}
+
+.mpics--left {
+
+	float:left;
+} 
+
+.mpic--right {
+
+	float:right;
+}
+
