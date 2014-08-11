@@ -1,118 +1,135 @@
 *{
-
 	box-sizing: border-box;
 }
 
 .container-fluid {
-
 	background-color:black;
 }
 
 .row__1 img {
-
 	margin: 25px auto;
 	//@include animation(fadeIn, 2s, ease-in-out, 3s);
-
 }
 
 .row__2 img {
-
 	margin: 0 auto;
 	//@include animation(fadeIn, 3s, ease-in-out, 1s);
-
 }
-
-a:hover {
-
-	text-decoration:none;
-}
- 
 
 .row__mess h1 {
-
-	
 	margin: -80px auto;
 	text-align:center;
-	background-color:#888;
-	opacity:0.75;
+	background-color:#999;
+	opacity:0.8;
 	color:white;
 	padding:15px 0;
 	width:80%;
 	font-size:1.5em;
-
-	//@include animation(bounce, 4.5s, linear, 4s);
-
+	//@include animation(bounce, 4.5s, linear, 3s);
 
 	//@include animation(fadeIn, 3s, ease-in-out, 5s);
 
-	//position:relative;
 	//@include animation(slideLeft, 5s, linear, 5s);
-
 }
 
+p {
 
-.row__color-1 {
+	line-height:1.5em;
+	font-size:1em;
 
-	background-color: #ed145b;
-}
-
-.row__color-2 {
-
-	background-color: #582010;
 }
 
 .row__button {
-
-	height:100px;
-	text-align:center;
-	margin: 15px 0;
+	margin: 0 auto;//15px 0;
 }
 
-.butlab {
-
-	margin-top:18px;
+.butlab--1,
+.butlab--2 {
+	text-align:center;
+	margin-top:10px;
 	color:white;
+	height:75px;
+}
+
+
+.butlab--1 {
+background-color: #ed145b;
+
+}
+
+.butlab--2 {
+	background-color: #582010;
 }
 
 .row__button h1 {
-
 	font-family: "Remachine Script";
 	font-size: 2em;
 	color:#00a3d3;
-	padding:0;
+	padding:5px 0 1px 0;
 	margin:0;
-	//background-color:blue;
 }
 
 .row__button h2 {
-
 	font-family: "ChunkFive";
 	padding:0;
 	margin:0;
 }
 
-.exp_menu {
-
-	height:500px;
+#menu,
+#location,
+#smedia {
 	display:none;
 	border:solid 1px white;
+	background:#ecf0f1;
+}
+
+#gmap {
+
+	padding: 15px 0 25px 0;//margin-bottom:50px;
+}
+
+#loc_info {
+padding: 20px 0;
+margin-top: 30px;
+
+}
+
+#loc_end h4 {
+margin:0;
+padding:0;
+
+}
+
+#remap img,
+#gmap img {
+
+	margin: 0 auto;
 }
 
 
-.mpics--right,
-.mpics--left {
 
-	border:solid 1px white;
+#smedia {
+
+	background-color:#ecf0f1;
+	border:solid 2px #ed145b;
+	
+}
+
+#smi__top,
+#smi__bot {
+
+	text-align:center;
+}
+
+#smi__top img {
+	
+	padding: 20px 5px 10px 5px;
 
 }
 
-.mpics--left {
-
-	float:left;
-} 
-
-.mpics--right {
-
-	float:right;
+#smi__bot img {
+	
+	padding: 10px 5px 20px 5px;
 }
+
 

@@ -183,96 +183,129 @@
   box-sizing: border-box;
 }
 
-/* line 6, ../scss/_layout.scss */
+/* line 5, ../scss/_layout.scss */
 .container-fluid {
   background-color: black;
 }
 
-/* line 11, ../scss/_layout.scss */
+/* line 9, ../scss/_layout.scss */
 .row__1 img {
   margin: 25px auto;
 }
 
-/* line 18, ../scss/_layout.scss */
+/* line 14, ../scss/_layout.scss */
 .row__2 img {
   margin: 0 auto;
 }
 
-/* line 25, ../scss/_layout.scss */
-a:hover {
-  text-decoration: none;
-}
-
-/* line 31, ../scss/_layout.scss */
+/* line 19, ../scss/_layout.scss */
 .row__mess h1 {
   margin: -80px auto;
   text-align: center;
-  background-color: #888;
-  opacity: 0.75;
+  background-color: #999;
+  opacity: 0.8;
   color: white;
   padding: 15px 0;
   width: 80%;
   font-size: 1.5em;
 }
 
-/* line 54, ../scss/_layout.scss */
-.row__color-1 {
+/* line 35, ../scss/_layout.scss */
+p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+/* line 42, ../scss/_layout.scss */
+.row__button {
+  margin: 0 auto;
+}
+
+/* line 47, ../scss/_layout.scss */
+.butlab--1,
+.butlab--2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  height: 75px;
+}
+
+/* line 55, ../scss/_layout.scss */
+.butlab--1 {
   background-color: #ed145b;
 }
 
-/* line 59, ../scss/_layout.scss */
-.row__color-2 {
+/* line 60, ../scss/_layout.scss */
+.butlab--2 {
   background-color: #582010;
 }
 
 /* line 64, ../scss/_layout.scss */
-.row__button {
-  height: 100px;
-  text-align: center;
-  margin: 15px 0;
-}
-
-/* line 71, ../scss/_layout.scss */
-.butlab {
-  margin-top: 18px;
-  color: white;
-}
-
-/* line 77, ../scss/_layout.scss */
 .row__button h1 {
   font-family: "Remachine Script";
   font-size: 2em;
   color: #00a3d3;
-  padding: 0;
+  padding: 5px 0 1px 0;
   margin: 0;
 }
 
-/* line 87, ../scss/_layout.scss */
+/* line 72, ../scss/_layout.scss */
 .row__button h2 {
   font-family: "ChunkFive";
   padding: 0;
   margin: 0;
 }
 
-/* line 94, ../scss/_layout.scss */
-.exp_menu {
-  height: 500px;
+/* line 80, ../scss/_layout.scss */
+#menu,
+#location,
+#smedia {
   display: none;
   border: solid 1px white;
+  background: #ecf0f1;
 }
 
-/* line 103, ../scss/_layout.scss */
-.mpics--right,
-.mpics--left {
-  border: solid 1px white;
+/* line 86, ../scss/_layout.scss */
+#gmap {
+  padding: 15px 0 25px 0;
 }
 
-/* line 109, ../scss/_layout.scss */
-.mpics--left {
-  float: left;
+/* line 91, ../scss/_layout.scss */
+#loc_info {
+  padding: 20px 0;
+  margin-top: 30px;
 }
 
-/* line 114, ../scss/_layout.scss */
-.mpics--right {
-  float: right;
+/* line 97, ../scss/_layout.scss */
+#loc_end h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 104, ../scss/_layout.scss */
+#remap img,
+#gmap img {
+  margin: 0 auto;
+}
+
+/* line 111, ../scss/_layout.scss */
+#smedia {
+  background-color: #ecf0f1;
+  border: solid 2px #ed145b;
+}
+
+/* line 119, ../scss/_layout.scss */
+#smi__top,
+#smi__bot {
+  text-align: center;
+}
+
+/* line 124, ../scss/_layout.scss */
+#smi__top img {
+  padding: 20px 5px 10px 5px;
+}
+
+/* line 130, ../scss/_layout.scss */
+#smi__bot img {
+  padding: 10px 5px 20px 5px;
 }
