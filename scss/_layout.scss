@@ -3,21 +3,38 @@
 }
 
 .container-fluid {
+
 	background-color:black;
 }
 
-.row__1 img {
-	margin: 25px auto;
+.row__1 {
+
+	background-color:black;
+}
+
+.row__2 {
+
+	padding:30px 0;
+
+	background-color:#ecf0f1;
+}
+
+#logo {
+
+	margin: 0 auto;
+	padding:15px 10px 0px 10px;
 	//@include animation(fadeIn, 2s, ease-in-out, 3s);
 }
 
-.row__2 img {
-	margin: 0 auto;
+.row__1 img {
+
+	margin: 25px auto;
 	//@include animation(fadeIn, 3s, ease-in-out, 1s);
 }
 
 .row__mess h1 {
-	margin: -80px auto;
+
+	margin: -100px auto;
 	text-align:center;
 	background-color:#999;
 	opacity:0.8;
@@ -36,15 +53,76 @@ p {
 
 	line-height:1.5em;
 	font-size:1em;
+}
+
+.tag1 {
+
+	color:#ecf0f1;
+	margin-top:18px;
+}
+
+.navmenu {
+
+	font-size: 1.5em;
+	margin-top:20px;
+	//border:solid 1px white;
+
+}
+.navmenu ul {
+
+	margin-top: 30px;
+}
+
+.navmenu li {
+	display:inline-block;
+	padding: 5px 0;
+
 
 }
 
+.navmenu li a{
+color:#582010;
+
+}
+
+.navmenu li a:hover {
+
+	color:white;
+	text-decoration: underline;
+
+}
+.menu_items {
+
+	//border:solid 1px white;
+}
+
+ #why_cake {
+background-color:#ecf0f1;
+margin-top:-200px;
+//height:220px;
+
+ }
+#why_cake h4 {
+
+	color:#ed145b;
+	padding:5px 5px;
+}
+
+#why_cake p {
+
+	color: #888;
+	padding: 5px 5px;
+	
+}
+
 .row__button {
+
 	margin: 0 auto;//15px 0;
 }
 
 .butlab--1,
 .butlab--2 {
+
 	text-align:center;
 	margin-top:10px;
 	color:white;
@@ -53,15 +131,18 @@ p {
 
 
 .butlab--1 {
+
 background-color: #ed145b;
 
 }
 
 .butlab--2 {
+
 	background-color: #582010;
 }
 
 .row__button h1 {
+
 	font-family: "Remachine Script";
 	font-size: 2em;
 	color:#00a3d3;
@@ -70,6 +151,7 @@ background-color: #ed145b;
 }
 
 .row__button h2 {
+
 	font-family: "ChunkFive";
 	padding:0;
 	margin:0;
@@ -78,6 +160,7 @@ background-color: #ed145b;
 #menu,
 #location,
 #smedia {
+
 	display:none;
 	border:solid 1px white;
 	background:#ecf0f1;
@@ -89,30 +172,41 @@ background-color: #ed145b;
 }
 
 #loc_info {
+
 padding: 20px 0;
 margin-top: 30px;
 
 }
 
-#loc_end h4 {
-margin:0;
+#loc_end {
+
+margin:25px 0;
 padding:0;
 
 }
 
-#remap img,
-#gmap img {
+
+#gmap img,
+#remap img {
 
 	margin: 0 auto;
 }
 
+#remap img {
 
+	padding:8px 0;
+}
 
 #smedia {
 
 	background-color:#ecf0f1;
 	border:solid 2px #ed145b;
 	
+}
+
+.media {
+
+	margin-bottom:25px;
 }
 
 #smi__top,
@@ -131,5 +225,28 @@ padding:0;
 	
 	padding: 10px 5px 20px 5px;
 }
+
+.row_foot {
+
+	//margin-top: 50px;
+	background-color:#ed145b;
+	text-align:center;
+}
+
+.row_foot li {
+
+	display: inline-block;
+	text-align: center;
+	padding:30px 10px 0 10px;
+	margin-top:30px;
+
+}
+
+.row_foot li a {
+
+	color: white;
+}
+
+
 
 

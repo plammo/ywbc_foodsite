@@ -188,19 +188,31 @@
   background-color: black;
 }
 
-/* line 9, ../scss/_layout.scss */
+/* line 10, ../scss/_layout.scss */
+.row__1 {
+  background-color: black;
+}
+
+/* line 15, ../scss/_layout.scss */
+.row__2 {
+  padding: 30px 0;
+  background-color: #ecf0f1;
+}
+
+/* line 22, ../scss/_layout.scss */
+#logo {
+  margin: 0 auto;
+  padding: 15px 10px 0px 10px;
+}
+
+/* line 29, ../scss/_layout.scss */
 .row__1 img {
   margin: 25px auto;
 }
 
-/* line 14, ../scss/_layout.scss */
-.row__2 img {
-  margin: 0 auto;
-}
-
-/* line 19, ../scss/_layout.scss */
+/* line 35, ../scss/_layout.scss */
 .row__mess h1 {
-  margin: -80px auto;
+  margin: -100px auto;
   text-align: center;
   background-color: #999;
   opacity: 0.8;
@@ -210,18 +222,70 @@
   font-size: 1.5em;
 }
 
-/* line 35, ../scss/_layout.scss */
+/* line 52, ../scss/_layout.scss */
 p {
   line-height: 1.5em;
   font-size: 1em;
 }
 
-/* line 42, ../scss/_layout.scss */
+/* line 58, ../scss/_layout.scss */
+.tag1 {
+  color: #ecf0f1;
+  margin-top: 18px;
+}
+
+/* line 64, ../scss/_layout.scss */
+.navmenu {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+/* line 71, ../scss/_layout.scss */
+.navmenu ul {
+  margin-top: 30px;
+}
+
+/* line 76, ../scss/_layout.scss */
+.navmenu li {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+/* line 83, ../scss/_layout.scss */
+.navmenu li a {
+  color: #582010;
+}
+
+/* line 88, ../scss/_layout.scss */
+.navmenu li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 99, ../scss/_layout.scss */
+#why_cake {
+  background-color: #ecf0f1;
+  margin-top: -200px;
+}
+
+/* line 105, ../scss/_layout.scss */
+#why_cake h4 {
+  color: #ed145b;
+  padding: 5px 5px;
+}
+
+/* line 111, ../scss/_layout.scss */
+#why_cake p {
+  color: #888;
+  padding: 5px 5px;
+}
+
+/* line 118, ../scss/_layout.scss */
 .row__button {
   margin: 0 auto;
 }
 
-/* line 47, ../scss/_layout.scss */
+/* line 124, ../scss/_layout.scss */
 .butlab--1,
 .butlab--2 {
   text-align: center;
@@ -230,17 +294,17 @@ p {
   height: 75px;
 }
 
-/* line 55, ../scss/_layout.scss */
+/* line 133, ../scss/_layout.scss */
 .butlab--1 {
   background-color: #ed145b;
 }
 
-/* line 60, ../scss/_layout.scss */
+/* line 139, ../scss/_layout.scss */
 .butlab--2 {
   background-color: #582010;
 }
 
-/* line 64, ../scss/_layout.scss */
+/* line 144, ../scss/_layout.scss */
 .row__button h1 {
   font-family: "Remachine Script";
   font-size: 2em;
@@ -249,14 +313,14 @@ p {
   margin: 0;
 }
 
-/* line 72, ../scss/_layout.scss */
+/* line 153, ../scss/_layout.scss */
 .row__button h2 {
   font-family: "ChunkFive";
   padding: 0;
   margin: 0;
 }
 
-/* line 80, ../scss/_layout.scss */
+/* line 162, ../scss/_layout.scss */
 #menu,
 #location,
 #smedia {
@@ -265,47 +329,76 @@ p {
   background: #ecf0f1;
 }
 
-/* line 86, ../scss/_layout.scss */
+/* line 169, ../scss/_layout.scss */
 #gmap {
   padding: 15px 0 25px 0;
 }
 
-/* line 91, ../scss/_layout.scss */
+/* line 174, ../scss/_layout.scss */
 #loc_info {
   padding: 20px 0;
   margin-top: 30px;
 }
 
-/* line 97, ../scss/_layout.scss */
-#loc_end h4 {
-  margin: 0;
+/* line 181, ../scss/_layout.scss */
+#loc_end {
+  margin: 25px 0;
   padding: 0;
 }
 
-/* line 104, ../scss/_layout.scss */
-#remap img,
-#gmap img {
+/* line 190, ../scss/_layout.scss */
+#gmap img,
+#remap img {
   margin: 0 auto;
 }
 
-/* line 111, ../scss/_layout.scss */
+/* line 195, ../scss/_layout.scss */
+#remap img {
+  padding: 8px 0;
+}
+
+/* line 200, ../scss/_layout.scss */
 #smedia {
   background-color: #ecf0f1;
   border: solid 2px #ed145b;
 }
 
-/* line 119, ../scss/_layout.scss */
+/* line 207, ../scss/_layout.scss */
+.media {
+  margin-bottom: 25px;
+}
+
+/* line 213, ../scss/_layout.scss */
 #smi__top,
 #smi__bot {
   text-align: center;
 }
 
-/* line 124, ../scss/_layout.scss */
+/* line 218, ../scss/_layout.scss */
 #smi__top img {
   padding: 20px 5px 10px 5px;
 }
 
-/* line 130, ../scss/_layout.scss */
+/* line 224, ../scss/_layout.scss */
 #smi__bot img {
   padding: 10px 5px 20px 5px;
+}
+
+/* line 229, ../scss/_layout.scss */
+.row_foot {
+  background-color: #ed145b;
+  text-align: center;
+}
+
+/* line 236, ../scss/_layout.scss */
+.row_foot li {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 10px 0 10px;
+  margin-top: 30px;
+}
+
+/* line 245, ../scss/_layout.scss */
+.row_foot li a {
+  color: white;
 }

@@ -7,6 +7,10 @@
 
 require_once('includes/head.php');
 require_once('includes/main_content.php');
+//require_once('includes/navmenu.php');
+require_once('includes/footer.php');
+
+//require_once('includes/nav.php');
 
 /*require_once('includes/logo.php');
 require_once('includes/main_image.php');
@@ -21,4 +25,3 @@ require_once('includes/smedia.php');*/
 ?>
 
 
-</html>

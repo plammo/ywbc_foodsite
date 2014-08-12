@@ -1,13 +1,41 @@
 		<main id="main">
-			
+
+				
 			<div class="row row__1">
-				<div class="col-xs-12 col-md-8">
-				<img src="assets/images/logo_choc.png" class="img-responsive" alt="pic" title="logo">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+				<img src="assets/images/logo_choc1.png" class="img-responsive" alt="pic" title="logo" id="logo">
+				</div>
+			
+				
+				<div class="col-sm-8 col-md-8 hidden-xs tag1">
+				<h3>Gourmet Speciality Cake and Brew House</h3>
+				<h4>By appointment to the hungry masses since 2001</h4>
 				</div>
 			</div>
-				
-			<div class="row row__2">
-				<div class="col-xs-12">
+
+			<div class="row row__2 navmenu col-sm-12 col-md-12 col-lg-12">
+				<div class="col-sm-5 col-md-5 col-lg-5 hidden-xs menu_items">
+					<ul class="col-sm-5 col-md-5 col-lg-5">
+						<li>
+						<a href="#">Menu</a>
+						</li>
+						<li>
+						<a href="#">Locations</a>
+	    				</li>
+						<li>
+						<a href="#">Our Story</a>
+	    				</li>
+	    				<li>
+						<a href="#">Our Team</a>
+	    				</li>
+    					<li>
+						<a href="#">Say Hello</a>
+	    				</li>
+	  				</ul>
+				</div>
+
+			<!--<div class="row row__2">-->
+				<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 					<div id="homeCarousel" class="carousel" data-ride="carousel" data-interval="2000">
 						<ol class="class carousel-indicators">
 							<li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -21,7 +49,7 @@
 						<!-- /. carousel indicators -->
 						<div class="class carousel-inner">
 							<div class="item active">
-							<img src="assets/images/slider/slider_cake2.png" alt="pic" title="catpic1">
+							<img src="assets/images/slider/slider_cake2.png" alt="pic" title="raspberry mousecake">
 							</div>
 
 							<div class="item">
@@ -55,20 +83,33 @@
 				</div>
 			</div>
 
+			<div class="col-sm-5 col-md-5 col-lg-5 hidden-xs menu_items">
+					<div id="why_cake">
+					<h4>Why CAKE?</h4>
+					<p>I want to treat myself, I want to treat you, 
+					we had a great day out, let’s celebrate.<br> Because you’re important to me, 
+					because you’re going away, because you’re coming back, because I like you, 
+					because I love you, because I think you might love me, because 
+					<span style="color:#ed145b">we all love CAKE.</span></p>
+					</div>
+			</div>
+
+			
+
 			<div class="row row__mess">
-				<div class="col-xs-12">
+				<div class="col-xs-12 visible-xs">
 				<h1>You know you want to...</h1>
 				</div>
 			</div>
 
-			<div class="row row__button hidden-md">
+			<div class="row row__button visible-xs">
 				<div class="col-xs-12 butlab--1">
 				<h1>Open</h1>
 				<h2>NOW!</h2>	
 				</div>
 			</div>
 
-			<div class="row row__button hidden-md">
+			<div class="row row__button visible-xs">
 					
 				<a class="collapsebut" href="#menu">
 					<div class="col-xs-12 butlab--2" >
@@ -85,7 +126,7 @@
 			</div>
 			
 
-			<div class="row row__button hidden-md" >
+			<div class="row row__button visible-xs" >
 					
 				<a class="collapsebut" href="#location">
 					<div class="col-xs-12 butlab--1">
@@ -94,7 +135,7 @@
 					</div>
 				</a>
 
-					<div id="location" class="col-xs-12">
+					<div id="location" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div id="address">
 							<h4>Location</h4>
 							<p>
@@ -137,8 +178,8 @@
 						</div>
 
 						<div id="loc_end">
-							<h2>CAKE.</h2>
-							<h4>Gourmet speciality cake and brew house</h4>
+							<span style="font-family: ChunkFive; font-size: 1.5em; ">CAKE.</span>
+							<p><strong>Gourmet speciality cake and brew house</strong></p>
 						</div>
 
 					</div>
@@ -163,7 +204,7 @@
 			
 			</div>
 
-			<div class="row row__button hidden-md">
+			<div class="row row__button visible-xs">
 				<div class="col-xs-12 butlab--2">
 				<a href="tel:0064212844066"><h1>Call</h1>
 				<h2>CAKE.</h2></a>	
@@ -171,7 +212,7 @@
 
 			</div>
 
-			<div class="row row__button hidden-md" >
+			<div class="row row__button visible-xs media">
 				
 				<a href="#smedia" class="collapsebut">	
 					<div class="col-xs-12 butlab--1">
@@ -198,8 +239,9 @@
 					</div>
 					
 			</div>
-
+		
 		</main>
+
 
 	</div>
 
